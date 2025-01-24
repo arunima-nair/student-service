@@ -51,7 +51,6 @@ public class StudentController {
         student.setSchoolName(updatedStudent.getSchoolName());
         return studentService.updateStudent(student);
     }
-
     public Student getStudentById(Long studentId) {
 		return studentService.getStudentById(studentId);
 	}
