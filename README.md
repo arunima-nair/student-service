@@ -15,7 +15,10 @@ The **Student Management System** API allows administrators to manage student re
 - **Spring Data JPA** - For database interaction
 - **H2 Database** - In-memory database for storing student records
 - **Maven** - Dependency management and build tool
-
+- **Spring Kafka** - For integrating Kafka messaging
+- **Swagger** - For API documentation and testing
+- **JUnit** - For unit testing
+- 
 ## Setup Instructions
 
 ### Prerequisites
@@ -23,7 +26,7 @@ The **Student Management System** API allows administrators to manage student re
 - Java 17 
 - Maven
 - IDE (IntelliJ IDEA, Eclipse, etc.)
-
+- Kafka
 ### Clone the Repository
 
 ```bash
